@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu|Wendy+One');
+
+* {
+  margin: 0;
+}
+
+header {
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Oswald', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  margin: 100px, 25%;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+
+nav {
+  margin: 1% 0 1%;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 10%, 5px;
+}
+
+nav li {
+  padding: 5px 5%;
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 25px;
+  font-family: 'Wendy One', sans-serif;
+  font-size: 1.5em;
+}
+
+nav a {
+  text-decoration: none;
+  width: 100%;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: black;
+  border: 5px solid #55A5FF;
+  border-radius: 25px;
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(#55A5FF,#CDE4FF);
+}
+
+section img {
+  border: 5px solid black;
+  border-radius: 25px;
+}
+p {
+  font-family: 'Ubuntu';
+  color: white;
+  font-size: 1.5em;
+  width: 50%;
+  text-align: center;
+  padding: 0 25%;
+}
+
+article {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+}
+
+.twitter-tweet {
+  margin: 5px auto;
+  background-color: grey;
+  padding: 10px;
+  border: 5px solid white;
+  border-radius: 25px;
+}
+
+h2 {
+  color: white;
+  text-shadow: 5px 5px 8px black;
+}
+
+footer {
+  font-family: Ubuntu;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  margin: 5% 0 0 0;
+}
+
+footer h2 {
+  padding: 15px;
+  font-family: Wendy One;
+  font-size: 2.5em;
+}
+footer img {
+  padding: 0 5px;
+}
